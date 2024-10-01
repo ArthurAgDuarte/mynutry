@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+:root{
+    /* branco do background */
+    --cor-01:#feffff; 
+    /* verde */
+    --cor-02:#3ab815;
+    /* laranja */
+    --cor-03:#ff4500;
+    /* preto do footer */
+    --cor-04:#101011;
+
+
+}
+
+h1, h5{
+    font-family: "EB Garamond", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor-01);
+    color: var(--cor-04);
+}
+.laranja{
+    color: var(--cor-03);
+
+}
+
+.verde{
+    color: var(--cor-02);
+}
+
+.card{
+    max-width: 25rem;
+    background-color: var(--cor-02);
+    color: var(--cor-01);
+}
+
+.btn{
+    font-size: 1.5rem;
+    color: var(--cor-01);
+}
+
+.btn:hover{
+    color: var(--cor-03);
+}
+
+/* Footer */
+.rodape {
+display: flex;
+  
+
+}
+
+
+.barra {
+    height: 100%;
+    border-left: solid 1px var(--cor-01);
+
+ }
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
