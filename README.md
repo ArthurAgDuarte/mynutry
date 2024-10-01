@@ -4,4 +4,4 @@
 
 Site de atendimento nutricional a distância.
 
-Update:30/09/2024.
+Update: 01/10/2024 -- projeto do corpo

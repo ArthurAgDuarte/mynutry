@@ -1,0 +1,36 @@
+:root{
+    /* branco do background */
+    --cor-01:#feffff; 
+    /* verde */
+    --cor-02:#3ab815;
+    /* laranja */
+    --cor-03:#ff4500;
+    /* preto do footer */
+    --cor-04:#101011;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor-01);
+    color: var(--cor-04);
+}
+.laranja{
+    color: var(--cor-03);
+
+}
+
+.verde{
+    color: var(--cor-02);
+}
+
+.card{
+    max-width: 25rem;
+    background-color: var(--cor-02);
+    color: var(--cor-01);
+}
