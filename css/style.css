@@ -27,13 +27,21 @@ body{
     background-color: var(--cor-01);
     color: var(--cor-04);
 }
-.laranja{
-    color: var(--cor-03);
-
+hr {
+    border: none;             
+    height:4px;              
+    margin: 6px auto;           
+}
+.verde{
+    background-color: var(--cor-02);
+    width: 5rem;
+    opacity: 1;
 }
 
-.verde{
-    color: var(--cor-02);
+.laranja{
+    background-color: var(--cor-03);
+    width: 8rem;
+    opacity: 1;
 }
 
 .card{
@@ -50,3 +58,4 @@ body{
 .btn:hover{
     color: var(--cor-03);
 }
+
