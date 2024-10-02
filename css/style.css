@@ -51,11 +51,49 @@ body{
     color: var(--cor-03);
 }
 
+
 /* Footer */
 .rodape {
 display: flex;
-  
+background-color: var(--cor-04);
+padding-left: 1rem;
 
+
+
+
+}
+.comp1{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+    /* list-style-type: none; */
+}
+.comp1 ul{
+    list-style-type: none;
+}
+.comp2{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+}
+.comp2 ul {
+    list-style-type: none;
+}
+.comp3{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+}
+
+.comp4{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+
+}
+
+.comp3 ul {
+    list-style-type: none; /* Remove os marcadores */
 }
 
 
