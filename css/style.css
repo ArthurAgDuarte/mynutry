@@ -28,28 +28,26 @@ header{
     
     background-color:var(--cor-06);
     color:var(--cor-01);
-    position: absolute;
+    /* position: absolute; */
     overflow: hidden;
 
     width: 100%;
-    /* z-index:100%;  */
-    /* top: 0%;  */
+    z-index:100; 
+    top: 0; 
     padding: 7rem 8rem ;
     display: flex;
     justify-content: space-between;
-     align-items: start;
-     flex-direction: row;
+    align-items: start;
+    flex-direction: row;
      
     
-     }
+}
 
 span{
     color: var(--cor-03);
 }
 header h1 {
     font-size: 5rem;
-    /* padding: 10rem; */
-    /* border: solid 1px yellow; */
     color:var(--cor-01);
 }
 nav ul {
@@ -69,7 +67,7 @@ nav a {
 }
 
 nav a:hover{
-    color: var(--cor-04);
+    color: var(--cor-03);
     
 }
 
@@ -78,14 +76,15 @@ nav a:hover{
     position: absolute;
     top: 0;
     right: 0%;
-    /* border: solid 1px yellow; */
+    
     
 }
 
-
-
+.btn-a{
+    font-size: 1rem;
+    font-weight: 700;
+}
  .menu-responsivo{
-        
         display: none;
     }
 
@@ -116,10 +115,16 @@ nav a:hover{
         z-index: 100;
         border-radius: 1rem;
     }
+    
 body{
     background-color: var(--cor-05);
     color: var(--cor-04);
 }
+
+main{
+    margin: 5rem auto;
+}
+
 hr {
     border: none;             
     height:4px;              
