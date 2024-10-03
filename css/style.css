@@ -12,6 +12,8 @@
     --cor-03:#ff4500;
     /* preto do footer */
     --cor-04:#101011;
+    /* cor trasparente */
+    --cor-06:#6ac94e;
 }
 
 
@@ -30,7 +32,7 @@ html{
 
 header{
     
-    background-color:var(--cor-02);
+    background-color:var(--cor-06);
     color:var(--cor-01);
     position: absolute;
     overflow: hidden;
@@ -46,6 +48,10 @@ header{
      
     
      }
+
+span{
+    color: var(--cor-03);
+}
 header h1 {
     font-size: 5rem;
     /* padding: 10rem; */
@@ -78,7 +84,7 @@ nav a:hover{
     position: absolute;
     top: 0;
     right: 0%;
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
     
 }
 
@@ -106,7 +112,6 @@ nav a:hover{
     
     header img{
         
-       
         /* top: 0; */
         right: 2%;
         position:absolute;
