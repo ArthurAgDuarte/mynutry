@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
 :root{
+    /* branco do background */
     --cor-01:#feffff; 
     /* verde */
     --cor-02:#3ab815;
@@ -243,4 +249,173 @@ hr {
     
 }
 
+
+
+
+
+footer {
+    background-color: var(--cor-04);
+    padding: 4rem 1.5rem;
+    margin: 0px;
+}
+.rodape {
+display: flex;
+justify-content: space-between;
+background-color: var(--cor-04);
+
+
+}
+
+ .icon-text{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    ;
+ }
+ul{
+padding: 0px;
+}
+.comp1{
+    color: var(--cor-01);
+    
+    padding: 1rem;
+   
+    
+    
+}
+.comp1 a{
+    text-decoration: none;
+    color: var(--cor-01);
+}
+.comp1 ul{
+    list-style-type: none;
+}
+.logo1 span {
+    color: var(--cor-03);
+}
+
+.logo1 h1 {
+    color: var(--cor-02);
+}
+.radius8{ 
+    display: inline-flex; /* Para centralizar o ícone */
+    justify-content: center;
+    align-items: center;
+    width: 22px; /* Ajuste conforme necessário */
+    height: 22px; /* Ajuste conforme necessário */
+    border: 1px solid var(--cor-01); /* Cor da borda */
+    border-radius: 50%; /* Isso cria o círculo */
+    
+
+}
+
+.bx
+{
+    padding-left: 10px;
+}
+.radius8 a {
+    margin: 5px;
+
+}
+.comp2{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+    text-decoration: none;
+   
+    
+}
+.comp2 div{
+    display: flex;
+}
+.comp2 a{
+    text-decoration: none;
+    color: var(--cor-01);
+}
+.comp2 ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+.comp3{
+    color: var(--cor-01);
+    padding: 1rem;
+    text-decoration: none;
+}
+.comp3 a{
+    text-decoration: none;
+    color: var(--cor-01);
+}
+
+.comp4{
+    color: var(--cor-01);
+    text-align: justify;
+    padding: 1rem;
+
+}
+
+.comp3 ul {
+    list-style-type: none; /* Remove os marcadores */
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    border: #3ab815 solid 1px;
+    padding: 7px;
+    
+    width: 18rem;
+    /* height: 40px; */
+
+}
+
+.input button{
+    background-color: var(--cor-02);
+    color: var(--cor-01);
+    border: 0px none;
+    padding: 2px 3px;
+    border-radius: 10%;
+}
+.input p{
+    padding: 0px;
+    margin:0px ;
+}
+
+.barra {
+    height: 100%;
+    border-left: solid 1px var(--cor-01);
+
+ }
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    /* gap: 0.1px; */
+}
+.redes-sociais ul {
+display: flex;
+padding: 0px;
+gap: 0.5rem;
+}
+
+.endpage{
+    color: var(--cor-01);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    font-size: 11px;
+    
+}
+.linhaend {
+    border-bottom: 1px solid #464742; /* Espessura e cor da linha */
+    width: 100%; /* Largura da linha */
+    /* margin: 2px 0; Espaçamento acima e abaixo */
+    padding: 1rem;
+
+}
+
+.endpage span {
+    color: #464742;
+}
 
