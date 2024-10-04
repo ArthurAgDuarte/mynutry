@@ -298,25 +298,22 @@ padding: 0px;
     color: var(--cor-02);
 }
 .radius8{ 
-    display: inline-flex; /* Para centralizar o ícone */
-    justify-content: center;
-    align-items: center;
-    width: 22px; /* Ajuste conforme necessário */
-    height: 22px; /* Ajuste conforme necessário */
-    border: 1px solid var(--cor-01); /* Cor da borda */
-    border-radius: 50%; /* Isso cria o círculo */
-    
+    display: inline-flex; /* Permite alinhar o conteúdo no centro */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    width: 25px; /* Largura do círculo */
+    height: 25px; /* Altura do círculo */
+    border: 2px solid #ffffff; /* Cor e espessura da borda */
+    border-radius: 50%; /* Faz a borda ficar circular */
+        /* Cor de fundo do círculo */
+    text-decoration: none; /* Remove o sublinhado do link */
 
 }
 
-.bx
-{
-    padding-left: 10px;
-}
-.radius8 a {
-    margin: 5px;
 
-}
+
+
+
 .comp2{
     color: var(--cor-01);
     text-align: justify;
@@ -414,7 +411,11 @@ gap: 0.5rem;
     padding: 1rem;
 
 }
-
+.input input{
+    background-color: var(--cor-04);
+    color: var(--cor-01);
+    border: solid var(--cor-04);
+}
 .endpage span {
     color: #464742;
 }
